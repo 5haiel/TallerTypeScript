@@ -53,4 +53,19 @@
   --bs-table-bg: transparent;
 }
 
+.series-card-text {
+  font-family: "Zain", sans-serif;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.series-card-text img {
+  width: 100%;
+  height: auto;
+  border-radius: 0rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
