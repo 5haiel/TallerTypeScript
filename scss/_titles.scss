@@ -1,8 +1,21 @@
 @use "palette";
 @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
-
 .header-title {
     font-family: 'Zain', sans-serif;
     color: palette.$background;
+}
+
+.main-title {
+    font-family: 'Zain', sans-serif;
+    color: palette.$main;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.seasons-average-text {
+    font-family: 'Zain', sans-serif;
+    color: palette.$main;
+    font-size: 1.5rem;
+    font-weight: bold;
 }

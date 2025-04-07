@@ -1,0 +1,29 @@
+@use "palette";
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem;
+    font-family: 'Zain', sans-serif;
+    font-size: 1.2rem;
+    background-color: palette.$white;
+}
+
+.table-header-custom {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.table-header-bg {
+    background-color: palette.$secondary;
+}
+
+.tr:hover {
+    background-color: palette.$third !important;
+}
+
+.table:hover {
+    --bs-table-bg: transparent;
+   
+}

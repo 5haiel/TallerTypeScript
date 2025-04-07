@@ -12,9 +12,31 @@
         <h1 class="header-title">TV Series</h1>
     </header>
     <main class="container-fluid">
-        <h1>Hello, World!</h1>
-        <p>This is a simple HTML document.</p>
+        <h1 class="main-title text-center">Welcome!</h1>
+        <section id="series-table">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <table class="table table-hover table-style">
+                        <thead>
+                            <tr class="table-header-bg">
+                                <th scope="col" class="table-header-custom">#</th>
+                                <th scope="col" class="table-header-custom">Name</th>
+                                <th scope="col" class="table-header-custom">Channel</th>
+                                <th scope="col" class="table-header-custom">Seasons</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tv-series-list"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <div class="row justify-content-left">
+            <h5 class="col-3 col-lg-2 seasons-average-text text-center">Seasons average: </h5>
+            <h5 class="col-1 seasons-average-text" id="seasons-average"></h5>
+        </div>
     </main>
-    <script src="js/main.js"></script>
+    <script type="module" src="js/serie.js"></script>
+    <script type="module" src="js/data.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

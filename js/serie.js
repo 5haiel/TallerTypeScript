@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Serie = void 0;
-class Serie {
+export class Serie {
     id;
     title;
     channel;
@@ -19,4 +16,3 @@ class Serie {
         this.image = image;
     }
 }
-exports.Serie = Serie;
