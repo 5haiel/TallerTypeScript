@@ -41,5 +41,5 @@ function renderSeriesCard(s: Serie): void {
                                 <img src="${s.image}" alt="${s.title}">
                                 <h2 style="padding-top: 1rem">${s.title}</h2>
                                 <p>${s.description}</p>
-                                <a href="${s.url}">Website</a>`;
+                                <a href="${s.url}" target="_blank">Website</a>`;
 }
