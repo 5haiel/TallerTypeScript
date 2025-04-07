@@ -1,0 +1,9 @@
+@use "palette";
+
+.header-bg {
+    background-color: palette.$main;
+}
+
+.bg-color {
+    background-color: palette.$background;
+}
